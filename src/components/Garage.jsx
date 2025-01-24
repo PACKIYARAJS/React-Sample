@@ -6,7 +6,7 @@ function Garage(){
         <React.Fragment>
         <h1>  Welcome! </h1>
         <h1>Who is live in my garage?</h1>
-        <Car text='Hey! im car'/>
+        <Car/>
         </React.Fragment>
     );
 
