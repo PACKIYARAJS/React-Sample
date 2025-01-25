@@ -1,15 +1,16 @@
-import React from "react";
-import Car from "./Car"
+import React from 'react'
+import Car from './Car'
 function Garage(){
 
-    return(
+    // const brand = 'fort'
+    const car = {brand: 'Ferrari', color : 'red'}
+
+    return( 
         <React.Fragment>
-        <h1>  Welcome! </h1>
         <h1>Who is live in my garage?</h1>
-        <Car/>
+        <Car car ={car} />
         </React.Fragment>
     );
 
 }
-
 export default Garage;
