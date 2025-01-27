@@ -4,13 +4,17 @@ import './index.css';
 import App from './App';
 import Garage from './components/Garage'
 import reportWebVitals from './reportWebVitals';
+import { AgeCounter } from './components/AgeCounter';
+import ParentComponent from './components/ParentComponent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
         <h1 className='App'>Welcome</h1>
-    <App />
+    {/* <App /> */}
     {/* <Garage /> */}
+    {/* <AgeCounter/> */}
+    <ParentComponent />
  
   </React.StrictMode>
 );
