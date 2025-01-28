@@ -13,8 +13,8 @@ root.render(
         <h1 className='App'>Welcome</h1>
     {/* <App /> */}
     {/* <Garage /> */}
-    {/* <AgeCounter/> */}
-    <ParentComponent />
+    <AgeCounter/>
+    {/* <ParentComponent /> */}
  
   </React.StrictMode>
 );
