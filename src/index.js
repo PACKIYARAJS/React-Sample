@@ -6,6 +6,9 @@ import Garage from './components/Garage'
 import reportWebVitals from './reportWebVitals';
 import { AgeCounter } from './components/AgeCounter';
 import ParentComponent from './components/ParentComponent'
+import { BasicExampleComponent } from './UseEffect/basic';
+import { ExampleComponent } from './UseEffect/dependency'
+import { Times } from './UseEffect/SetTimeInterval'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,9 +16,12 @@ root.render(
         <h1 className='App'>Welcome</h1>
     {/* <App /> */}
     {/* <Garage /> */}
-    <AgeCounter/>
+    {/* <AgeCounter/> */}
     {/* <ParentComponent /> */}
- 
+    {/* <BasicExampleComponent />
+    <ExampleComponent/> */}
+    <Times/>
+
   </React.StrictMode>
 );
 
